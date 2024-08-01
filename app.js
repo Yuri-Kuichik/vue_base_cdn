@@ -1,7 +1,10 @@
-Vue.createApp({
+const App = Vue.createApp({
     data() {
         return {
-            title: 'Vue App with CDN',
+           titleApp: 'App Vue CDN' 
         }
     }
-}).mount('#app')
+})
+
+
+App.mount('#app')

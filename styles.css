@@ -182,3 +182,44 @@ h3 {
   justify-content: space-between;
   padding: 0.5rem 0;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.calc {
+  max-width: 200px; 
+  gap: 15px;
+}
+
+.calc-actions {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.calc-btn {
+  padding: 4px; 
+  border: solid 1px #ccc;
+  border-radius: 8px;
+}
+
+.calc-btn span {
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.calc-btn.active {
+  transition: border 0.1s;
+  border-color: #42b983;
+}
